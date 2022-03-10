@@ -1,5 +1,5 @@
 # Predicting-YouTube-Dislikes-via-Catboost-and-Sentiment-Analysis
-I used Catboost for training a model on the numerical features of every YouTube video (e.g., the number of views, comments, likes, etc.) along with sentiment analysis of the video descriptions and comments using the VADER sentiment analysis model.
+I trained a model which predicts how many dislikes a video has. In order to analyze non-numerical features like video titles, descriptions, and comments, a sentiment analysis approach using the VADER sentiment [1] has been applied, which translated them to a set of numbers about how much it conveys a positive, negative, or neutral opinion.
 
 
 Here is the Medium article I wrote about this project: </br>
